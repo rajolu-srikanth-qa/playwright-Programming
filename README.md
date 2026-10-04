@@ -1,16 +1,22 @@
 Playwright Concepts Project
+
 Small practice project :
 •	Playwright concepts
 •	TypeScript basics
 •	JavaScript basics
+
+
 Project Structure
 •	playwright/tests/typescript/ Playwright concept specs like alerts, dropdowns, frames, tables, scrolling, radio buttons, auth, and window handles.
 •	practice/typescript/ TypeScript concept files.
 •	practice/javascript/ JavaScript concept files.
+
 Install
 npm install
 npx playwright install
 Run Playwright Tests
+
+
 Run all tests:
 npm test
 Run Playwright tests in headed mode:
@@ -19,6 +25,8 @@ Run only TypeScript concept specs:
 npm run test:ts
 Run one file:
 npx playwright test playwright/tests/typescript/dropdown.spec.ts
+
+
 Topics Covered
 •	Alerts
 •	Assertions
@@ -37,6 +45,8 @@ Topics Covered
 •	Static web tables
 •	Validation
 •	Window handles
+
+
 Notes
 •	Generated folders like node_modules, playwright-report, test-results, and saved auth state are excluded from sharing.
 •	This repo is intended as a classroom practice project, not a production test framework.
