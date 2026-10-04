@@ -1,0 +1,15 @@
+import path from 'path';
+import { test, expect } from '@playwright/test';
+
+test('file upload', async ({ page }) => {
+    await page.goto('https://the-internet.herokuapp.com/upload',{waitUntil:'domcontentloaded'});
+
+    const filepath = path.resolve('priyanka.txt');
+    await page.setInputFiles('#file-upload',filepath);
+    await page.locator('#file-submit').click();
+
+    
+
+
+     
+});
