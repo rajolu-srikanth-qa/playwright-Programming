@@ -1,6 +1,6 @@
 # Playwright Concepts Project
 
-Small practice project for teaching:
+Small practice project for learning:
 
 - Playwright concepts
 - TypeScript basics
