@@ -1,4 +1,4 @@
-Playwright Concepts Project
+#Playwright Concepts Project
 
 Small practice project :
 •	Playwright concepts
@@ -6,12 +6,12 @@ Small practice project :
 •	JavaScript basics
 
 
-Project Structure
+Project Structure : 
 •	playwright/tests/typescript/ Playwright concept specs like alerts, dropdowns, frames, tables, scrolling, radio buttons, auth, and window handles.
 •	practice/typescript/ TypeScript concept files.
 •	practice/javascript/ JavaScript concept files.
 
-Install
+Install:
 npm install
 npx playwright install
 Run Playwright Tests
